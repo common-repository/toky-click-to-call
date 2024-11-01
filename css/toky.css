@@ -1,0 +1,236 @@
+
+
+.toky-wp {
+	background: #353943;
+	padding: 20px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+
+}
+
+.toky-wp-col-left {
+	float: left;
+	width: 30%;
+	margin-right: 5%;
+	color: #fff;
+}
+
+.toky-wp-col-left .toky-wp-logo {
+	width: 190px;
+	display: block;
+	margin: 0px auto 40px auto;
+}
+
+.toky-wp-col-left .toky-wp-logo img{
+	width: 190px;
+	height: auto;
+}
+.toky-wp-desc-signup {
+	text-align: center;
+	border: 1px solid #4a4d56;
+	border-radius: 4px;
+	padding: 20px;
+}
+
+.toky-wp-desc-signup  .toky-wp-btn-blue {
+	margin-top: 20px;
+}
+
+.toky-wp-btn-blue {
+	border-radius: 4px;
+	text-transform: uppercase;
+	font-size: 11px;
+	letter-spacing: 1px;
+	font-weight: 700;
+	background: #3f84e2;
+	color: #fff;
+	padding: 8px 12px;
+	text-decoration: none;
+	display: block;
+}
+
+.toky-wp-btn-blue:hover {
+	border-radius: 4px;
+	text-transform: uppercase;
+	font-size: 11px;
+	letter-spacing: 1px;
+	font-weight: 700;
+	background: #3070c6;
+	color: #fff;
+	padding: 8px 12px;
+	text-decoration: none;
+	display: block;
+	
+}
+
+.toky-wp-btn-green {
+	border-radius: 4px;
+	text-transform: uppercase;
+	font-size: 11px;
+	letter-spacing: 1px;
+	font-weight: 700;
+	background: #42b649;
+	color: #fff;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	cursor: pointer;
+	width: 30%;
+	text-align: center;
+	
+}
+
+
+.toky-wp-btn-green:hover {
+	border-radius: 4px;
+	text-transform: uppercase;
+	font-size: 11px;
+	letter-spacing: 1px;
+	font-weight: 700;
+	background: #35ac3d;
+	color: #fff;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	cursor: pointer;
+	width: 30%;
+	text-align: center;
+}
+
+
+.toky-wp-col-right {
+	float: left;
+	width: 65%
+}
+
+.toky-wp-container {
+	border-radius: 4px;
+	background: #f2f6f9;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	position:relative;
+	    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;	
+}
+
+.toky-wp-container:before, .toky-wp-container:after
+{
+    content:"";
+    position:absolute;
+    z-index:-1;
+    -webkit-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    -moz-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    box-shadow:0 0 20px rgba(0,0,0,0.8);
+    top:50%;
+    bottom:0;
+    left:10px;
+    right:10px;
+    -moz-border-radius:100px / 10px;
+    border-radius:100px / 10px;
+}
+.toky-wp-container:after
+{
+    right:10px;
+    left:auto;
+    -webkit-transform:skew(8deg) rotate(3deg);
+       -moz-transform:skew(8deg) rotate(3deg);
+        -ms-transform:skew(8deg) rotate(3deg);
+         -o-transform:skew(8deg) rotate(3deg);
+            transform:skew(8deg) rotate(3deg);
+}
+
+.toky-wp-container .toky-wp-title {
+	background: #23282d;
+	padding: 10px 20px;
+	border-radius: 2px 2px 0px 0px;
+}
+
+.toky-wp-container .toky-wp-title h1 {
+	color: #ffffff;
+	font-size: 13px;
+	font-weight: 400;
+	margin: 0px;
+	padding: 0px;
+}
+
+.toky-wp-form {
+	padding: 10px 20px;
+	background: #fff;
+	border: 1px solid #d1d9e2;
+	margin: 30px;
+	border-radius: 4px;
+}
+
+.toky-wp-form .toky-wp-title-spam h2 {
+	border-bottom: 1px solid #d1d9e2;
+	font-size: 11px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #b2becb;
+	
+}
+
+.toky-wp-form-control {
+	margin-bottom: 20px;
+	display: block;
+	width: 100%;
+}
+
+.toky-wp-form-control label {
+	font-weight: 700;
+	display: block;
+	margin-bottom: 5px;
+}
+
+.toky-wp-form-control input[type="text"]  {
+	width: 40%;
+	font-size: 14px;
+	padding: 5px;
+	border: 1px solid #b2becb;
+	border-radius: 4px;
+	height: 35px;
+	color: #666;
+}
+
+.toky-wp-form-control input[type="text"]:disabled {
+    background: #dddddd;
+	cursor: not-allowed;
+	width: 40%;
+	font-size: 14px;
+	padding: 5px;
+	border: 1px solid #b2becb;
+	border-radius: 4px;
+	height: 35px;
+	color: #666;
+}
+
+.toky-wp-textarea {
+	width: 80%;
+	font-size: 14px;
+	padding: 5px;
+	border: 1px solid #b2becb;
+	border-radius: 4px;
+	height: 80px;
+	color: #666;
+}
+
+.toky-wp-select {
+	font-size: 14px;
+}
+
+
+.toky-wp-col {
+	width: 29%;
+	margin-right: 4%;
+	float: left;
+}
+
+.toky-wp-row {
+	clear: both;
+}
+
+.toky-wp-clear {
+	clear: both;
+}
+
